@@ -21,7 +21,7 @@ export default function Api() {
 
     useEffect(() => {
         fetchData()
-    },[fdata])
+    },[])
     return (
         <div>
             <div>
