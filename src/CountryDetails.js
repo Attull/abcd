@@ -55,7 +55,7 @@ export default function CountryDetails() {
 
             </div>
             <div className='col-3'>
-                <img src={country[0]?.flags.png} />
+                <img alt="no image" src={country[0]?.flags.png} />
             </div>
         </div>
     </div>
