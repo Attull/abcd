@@ -5,7 +5,6 @@ export default function Api() {
 
     var [country, setCountry] = useState([])
     var [useData, setUsedata] = useState("")
-    var [fdata, setFData] = useState([])
 
     const fetchData = () => {
         fetch("https://restcountries.com/v3.1/all")
